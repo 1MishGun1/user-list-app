@@ -1,0 +1,31 @@
+.user_items {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.user_title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user_link {
+  text-decoration: none;
+  color: #393939;
+  font-size: 16px;
+}
+
+.user_btn_load {
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid rgb(75, 75, 196);
+  color: rgb(75, 75, 196);
+  border-radius: 8px;
+  margin-top: 15px;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: rgb(75, 75, 196);
+    color: white;
+  }
+}
